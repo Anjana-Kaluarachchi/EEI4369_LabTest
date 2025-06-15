@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0277BD"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tempText"
+        android:layout_width="335dp"
+        android:layout_height="493dp"
+        android:layout_centerInParent="true"
+        android:text="Current Environment Temperature: -- °C"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+</RelativeLayout>
