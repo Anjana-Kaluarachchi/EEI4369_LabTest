@@ -14,6 +14,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders["google_maps_key"] = project.findProperty("google_maps_key") ?: ""
     }
 
     buildTypes {
